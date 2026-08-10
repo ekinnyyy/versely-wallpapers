@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Versely Wallpapers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">✝ Versely</a>
+    <nav><a href="#wallpapers">Wallpapers</a><a href="#about">About</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">FREE CHRISTIAN WALLPAPERS</p>
+      <h1>Keep His Word<br>close to you.</h1>
+      <p>Peaceful, faith-filled wallpapers for your lock screen and home screen.</p>
+    </section>
+
+    <section id="wallpapers" class="wallpaper-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">LATEST</p><h2>Wallpapers</h2></div>
+      </div>
+      <div id="wallpaper-grid" class="wallpaper-grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <p class="eyebrow">ABOUT VERSELY</p>
+      <h2>A quiet reminder of faith, every day.</h2>
+    </section>
+  </main>
+
+  <dialog id="preview-dialog">
+    <button id="close-preview">×</button>
+    <img id="preview-image" alt="Wallpaper preview">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
