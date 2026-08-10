@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/versely-wallpapers
+  repo: ekinnyyy/versely-wallpapers
 
 media_folder: /images
 public_folder: /images
