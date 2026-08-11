@@ -34,9 +34,29 @@ collections:
                 label: Wallpaper 1
                 widget: image
 
+              - name: credit_name_1
+                label: Credit Name 1
+                widget: string
+                required: false
+
+              - name: credit_url_1
+                label: Credit Link 1
+                widget: string
+                required: false
+
               - name: image_2
                 label: Wallpaper 2
                 widget: image
+                required: false
+
+              - name: credit_name_2
+                label: Credit Name 2
+                widget: string
+                required: false
+
+              - name: credit_url_2
+                label: Credit Link 2
+                widget: string
                 required: false
 
               - name: image_3
@@ -44,9 +64,29 @@ collections:
                 widget: image
                 required: false
 
+              - name: credit_name_3
+                label: Credit Name 3
+                widget: string
+                required: false
+
+              - name: credit_url_3
+                label: Credit Link 3
+                widget: string
+                required: false
+
               - name: image_4
                 label: Wallpaper 4
                 widget: image
+                required: false
+
+              - name: credit_name_4
+                label: Credit Name 4
+                widget: string
+                required: false
+
+              - name: credit_url_4
+                label: Credit Link 4
+                widget: string
                 required: false
 
               - name: image_5
@@ -54,12 +94,12 @@ collections:
                 widget: image
                 required: false
 
-              - name: credit_name
-                label: Credit Name
+              - name: credit_name_5
+                label: Credit Name 5
                 widget: string
                 required: false
 
-              - name: credit_url
-                label: Credit Link
+              - name: credit_url_5
+                label: Credit Link 5
                 widget: string
                 required: false
