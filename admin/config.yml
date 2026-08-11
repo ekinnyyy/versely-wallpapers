@@ -32,16 +32,11 @@ collections:
                 required: false
 
               - name: images
-                label: Wallpaper Versions
-                label_singular: Wallpaper Version
-                widget: list
-                required: false
-                min: 1
-                max: 5
-                field:
-                  name: image
-                  label: Image
-                  widget: image
+  label: Wallpaper Versions
+  widget: image
+  multiple: true
+  min: 1
+  max: 5
 
               - name: image
                 label: Legacy Single Image
