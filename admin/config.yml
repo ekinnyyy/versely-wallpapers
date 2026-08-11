@@ -15,12 +15,45 @@ collections:
         format: json
         fields:
           - name: wallpapers
-            label: Wallpapers
+            label: Wallpaper Sets
+            label_singular: Wallpaper Set
             widget: list
             summary: "{{fields.title}}"
+            add_to_top: true
+            collapsed: auto
             fields:
-              - { name: title, label: Title, widget: string }
-              - { name: category, label: Category, widget: string, required: false }
-              - { name: image, label: Wallpaper Image, widget: image }
-              - { name: credit_name, label: Credit Name, widget: string, required: false }
-              - { name: credit_url, label: Credit Link, widget: string, required: false }
+              - name: title
+                label: Title
+                widget: string
+
+              - name: category
+                label: Category
+                widget: string
+                required: false
+
+              - name: images
+                label: Wallpaper Versions
+                label_singular: Wallpaper Version
+                widget: list
+                required: false
+                min: 1
+                max: 5
+                field:
+                  name: image
+                  label: Image
+                  widget: image
+
+              - name: image
+                label: Legacy Single Image
+                widget: image
+                required: false
+
+              - name: credit_name
+                label: Credit Name
+                widget: string
+                required: false
+
+              - name: credit_url
+                label: Credit Link
+                widget: string
+                required: false
