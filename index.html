@@ -1,25 +1,60 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Free high-resolution Christian wallpapers by Versely.">
-<title>Versely Wallpapers</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free high-resolution Christian wallpapers by Versely.">
+  <title>Versely Wallpapers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="site-header">
-<a class="brand" href="#"><span class="cross">✝</span><span>Versely</span></a>
-<nav><a href="#wallpapers">Wallpapers</a><a href="#about">About</a><a href="https://www.instagram.com/wallpapersofjesusx" target="_blank" rel="noopener">Instagram</a></nav>
-</header>
-<main>
-<section class="hero"><p class="eyebrow">FREE CHRISTIAN WALLPAPERS</p><h1>Keep His Word<br>close to you.</h1><p class="hero-copy">Peaceful, faith-filled wallpapers for your lock screen and home screen. New designs added regularly.</p><a class="primary-button" href="#wallpapers">Browse wallpapers</a></section>
-<section id="wallpapers" class="wallpaper-section"><div class="section-heading"><div><p class="eyebrow">LATEST</p><h2>Wallpapers</h2></div><p class="section-note">Tap any image to preview it. Download the full-resolution version below.</p></div><div id="wallpaper-grid" class="wallpaper-grid"></div></section>
-<section id="about" class="about"><div class="about-copy"><p class="eyebrow">ABOUT VERSELY</p><h2>A quiet reminder of faith, every day.</h2><p>Versely is being created to bring Scripture and peaceful Christian imagery to the screens you see most.</p></div><div class="coming-soon"><span class="cross large">✝</span><p>Versely app</p><strong>Coming soon</strong></div></section>
-</main>
-<footer><span>© <span id="year"></span> Versely</span><span>Free Christian wallpapers</span></footer>
-<dialog id="preview-dialog"><button id="close-preview">×</button><img id="preview-image" alt="Wallpaper preview"></dialog>
-<script src="script.js"></script>
-</body></html>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="cross">✝</span><span>Versely</span></a>
+    <nav>
+      <a href="#wallpapers">Wallpapers</a>
+      <a href="#about">About</a>
+      <a href="https://www.instagram.com/wallpapersofjesusx" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">FREE CHRISTIAN WALLPAPERS</p>
+      <h1>Keep His Word<br>close to you.</h1>
+      <p class="hero-copy">Peaceful, faith-filled wallpapers for your lock screen and home screen. New designs added regularly.</p>
+      <a class="primary-button" href="#wallpapers">Browse wallpapers</a>
+    </section>
+
+    <section id="wallpapers" class="wallpaper-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">LATEST</p><h2>Wallpapers</h2></div>
+        <p class="section-note">Swipe or use the arrows to browse each wallpaper set. Download the version you like in full resolution.</p>
+      </div>
+      <div id="wallpaper-grid" class="wallpaper-grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT VERSELY</p>
+        <h2>A quiet reminder of faith, every day.</h2>
+        <p>Versely is being created to bring Scripture and peaceful Christian imagery to the screens you see most.</p>
+      </div>
+      <div class="coming-soon">
+        <span class="cross large">✝</span><p>Versely app</p><strong>Coming soon</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Versely</span><span>Free Christian wallpapers</span></footer>
+
+  <dialog id="preview-dialog">
+    <button id="close-preview" aria-label="Close preview">×</button>
+    <img id="preview-image" alt="Wallpaper preview">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
