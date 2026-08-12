@@ -1,25 +1,6 @@
 {
   "wallpapers": [
     {
-      "title": "Guardian Angels",
-      "category": "",
-      "image_1": "/images/He Hears (10).png",
-      "credit_name_1": "Guardian angel (1914). Original from the Library of Congress.",
-      "credit_url_1": "",
-      "image_2": "/images/He Hears (9).png",
-      "credit_name_2": "The angel's whisper (1894), vintage chromolithograph. Original public domain image from the Library of Congress.",
-      "credit_url_2": "",
-      "image_3": "",
-      "credit_name_3": "",
-      "credit_url_3": "",
-      "image_4": "",
-      "credit_name_4": "",
-      "credit_url_4": "",
-      "image_5": "",
-      "credit_name_5": "",
-      "credit_url_5": ""
-    },
-    {
       "title": "His Grace Is Enough",
       "category": "Prayer • Surrender",
       "credit_name_1": "",
@@ -30,46 +11,46 @@
       "credit_url_3": "",
       "credit_name_4": "",
       "credit_url_4": "",
+      "credit_name": "Image by Chil Vera from Pixabay.",
+      "credit_url": "https://pixabay.com/users/charlvera-11040068/",
+      "image": "",
       "images": [
         "/images/hisgraceisenough.png",
         "/images/aipainting.png"
-      ],
-      "image": "",
-      "credit_name": "Image by Chil Vera from Pixabay.",
-      "credit_url": "https://pixabay.com/users/charlvera-11040068/"
+      ]
     },
     {
       "title": "Cast Your Cares on Him",
       "category": "Trust",
+      "credit_name": "Image by Meranda D from Pixabay",
+      "credit_url": "https://pixabay.com/users/merandadevan-172642/",
+      "image": "",
       "images": [
         "/images/caresonhim.png",
         "/images/jesus by waves.png"
-      ],
-      "image": "",
-      "credit_name": "Image by Meranda D from Pixabay",
-      "credit_url": "https://pixabay.com/users/merandadevan-172642/"
+      ]
     },
     {
       "title": "Pray With Confidence",
       "category": "Trust",
+      "credit_name": "Image by Leo from Pixabay",
+      "credit_url": "https://pixabay.com/users/kyraxys-41857870/",
+      "image": "",
       "images": [
         "/images/pray with confidence.jpg",
         "/images/jesus in the sky.jpg"
-      ],
-      "image": "",
-      "credit_name": "Image by Leo from Pixabay",
-      "credit_url": "https://pixabay.com/users/kyraxys-41857870/"
+      ]
     },
     {
       "title": "You Never Pray Alone",
       "category": "",
+      "credit_name": "Image by David Yonatan González Aburto from Pixabay",
+      "credit_url": "https://pixabay.com/users/im%C3%A1genesiacristianas-5152838/",
+      "image": "",
       "images": [
         "/images/Jesus praying 2.jpg",
         "/images/jesus praying.jpg"
-      ],
-      "image": "",
-      "credit_name": "Image by David Yonatan González Aburto from Pixabay",
-      "credit_url": "https://pixabay.com/users/im%C3%A1genesiacristianas-5152838/"
+      ]
     },
     {
       "title": "Abbott Handerson Thayer - Angel Series",
@@ -84,14 +65,14 @@
       "credit_url_4": "",
       "credit_name_5": "",
       "credit_url_5": "",
+      "credit_name": "1.Angel (1887) painting in high resolution by Abbott Handerson Thayer. Original from the Smithsonian Institution. 2. Stevenson Memorial (1903) painting in high resolution by Abbott Handerson Thayer. Original from the Smithsonian Institution. 3. Winged Figure (1889) painting in high resolution by Abbott Handerson Thayer. Original from the Art Institute of Chicago.",
+      "credit_url": "",
+      "image": "",
       "images": [
         "/images/He Hears (1).png",
         "/images/He Hears (2).png",
         "/images/He Hears (4).png"
-      ],
-      "image": "",
-      "credit_name": "1.Angel (1887) painting in high resolution by Abbott Handerson Thayer. Original from the Smithsonian Institution. 2. Stevenson Memorial (1903) painting in high resolution by Abbott Handerson Thayer. Original from the Smithsonian Institution. 3. Winged Figure (1889) painting in high resolution by Abbott Handerson Thayer. Original from the Art Institute of Chicago.",
-      "credit_url": ""
+      ]
     },
     {
       "title": "Nostalgia",
@@ -109,6 +90,25 @@
         "/images/He Hears (8).png",
         "/images/67 A pious girl approaching the Virgin and Christ Child.jpg"
       ]
+    },
+    {
+      "title": "Guardian Angels",
+      "category": "",
+      "image_1": "/images/He Hears (10).png",
+      "credit_name_1": "Guardian angel (1914). Original from the Library of Congress.",
+      "credit_url_1": "",
+      "image_2": "/images/He Hears (9).png",
+      "credit_name_2": "The angel's whisper (1894), vintage chromolithograph. Original public domain image from the Library of Congress.",
+      "credit_url_2": "",
+      "image_3": "",
+      "credit_name_3": "",
+      "credit_url_3": "",
+      "image_4": "",
+      "credit_name_4": "",
+      "credit_url_4": "",
+      "image_5": "",
+      "credit_name_5": "",
+      "credit_url_5": ""
     }
   ]
 }
