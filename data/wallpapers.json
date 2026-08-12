@@ -1,6 +1,25 @@
 {
   "wallpapers": [
     {
+      "title": "Guardian Angels",
+      "category": "",
+      "image_1": "/images/He Hears (10).png",
+      "credit_name_1": "Guardian angel (1914). Original from the Library of Congress.",
+      "credit_url_1": "",
+      "image_2": "/images/He Hears (9).png",
+      "credit_name_2": "The angel's whisper (1894), vintage chromolithograph. Original public domain image from the Library of Congress.",
+      "credit_url_2": "",
+      "image_3": "",
+      "credit_name_3": "",
+      "credit_url_3": "",
+      "image_4": "",
+      "credit_name_4": "",
+      "credit_url_4": "",
+      "image_5": "",
+      "credit_name_5": "",
+      "credit_url_5": ""
+    },
+    {
       "title": "His Grace Is Enough",
       "category": "Prayer • Surrender",
       "credit_name_1": "",
@@ -83,13 +102,13 @@
       "credit_url_2": "",
       "credit_name_3": "",
       "credit_url_3": "",
+      "credit_name": "1. Saint Mary (the Blessed Virgin), in the form in which she appeared to Saint Catherine Labouré in Paris in 1830. Colour lithograph, 1898. 2. A pious girl approaching the Virgin and Christ Child. Colour lithograph. Original public domain image from Wellcome Collection.",
+      "credit_url": "",
+      "image": "",
       "images": [
         "/images/He Hears (8).png",
         "/images/67 A pious girl approaching the Virgin and Christ Child.jpg"
-      ],
-      "image": "",
-      "credit_name": "1. Saint Mary (the Blessed Virgin), in the form in which she appeared to Saint Catherine Labouré in Paris in 1830. Colour lithograph, 1898. 2. A pious girl approaching the Virgin and Christ Child. Colour lithograph. Original public domain image from Wellcome Collection.",
-      "credit_url": ""
+      ]
     }
   ]
 }
